@@ -35,6 +35,7 @@
     
     NSLog(@"%@",dic);
     
+    NSLog(@"HelloWorld");
     NSString *e_str = [RSAUtil encryptString:_MtextField.text publicKey:RSA_Public_key];
     if (e_str) {
         self.eCTextView.text = e_str;
