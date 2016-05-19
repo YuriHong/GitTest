@@ -15,6 +15,14 @@
 		9A7E0F871CC5C72D001A22D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7E0F851CC5C72D001A22D6 /* LaunchScreen.storyboard */; };
 		9A7E0F921CC5C72D001A22D6 /* UIDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7E0F911CC5C72D001A22D6 /* UIDemoTests.m */; };
 		9A7E0F9D1CC5C72D001A22D6 /* UIDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7E0F9C1CC5C72D001A22D6 /* UIDemoUITests.m */; };
+		9A7E0FAD1CC5C777001A22D6 /* ZSHYWalletViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7E0FAB1CC5C777001A22D6 /* ZSHYWalletViewController.m */; };
+		9A7E0FAE1CC5C777001A22D6 /* ZSHYWalletViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A7E0FAC1CC5C777001A22D6 /* ZSHYWalletViewController.xib */; };
+		9A7E100B1CC6306C001A22D6 /* RSAUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7E100A1CC6306C001A22D6 /* RSAUtil.m */; };
+		9A7E10131CC639C0001A22D6 /* NSString+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7E10121CC639C0001A22D6 /* NSString+Util.m */; };
+		9ACD271A1CC71BC400A21A2F /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACD27191CC71BC400A21A2F /* UIView+Util.m */; };
+		9ACD271F1CC71E7E00A21A2F /* UIBarButtonItem+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACD271C1CC71E7E00A21A2F /* UIBarButtonItem+Badge.m */; };
+		9ACD27201CC71E7E00A21A2F /* UIButton+Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACD271E1CC71E7E00A21A2F /* UIButton+Badge.m */; };
+		9ACD27251CC725BC00A21A2F /* YUUserLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ACD27241CC725BC00A21A2F /* YUUserLogin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,22 @@
 		9A7E0F981CC5C72D001A22D6 /* UIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A7E0F9C1CC5C72D001A22D6 /* UIDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIDemoUITests.m; sourceTree = "<group>"; };
 		9A7E0F9E1CC5C72D001A22D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A7E0FAA1CC5C777001A22D6 /* ZSHYWalletViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSHYWalletViewController.h; sourceTree = "<group>"; };
+		9A7E0FAB1CC5C777001A22D6 /* ZSHYWalletViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSHYWalletViewController.m; sourceTree = "<group>"; };
+		9A7E0FAC1CC5C777001A22D6 /* ZSHYWalletViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZSHYWalletViewController.xib; sourceTree = "<group>"; };
+		9A7E10091CC6306C001A22D6 /* RSAUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAUtil.h; sourceTree = "<group>"; };
+		9A7E100A1CC6306C001A22D6 /* RSAUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAUtil.m; sourceTree = "<group>"; };
+		9A7E100C1CC63303001A22D6 /* EncryptionKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncryptionKeys.h; sourceTree = "<group>"; };
+		9A7E10111CC639C0001A22D6 /* NSString+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Util.h"; sourceTree = "<group>"; };
+		9A7E10121CC639C0001A22D6 /* NSString+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Util.m"; sourceTree = "<group>"; };
+		9ACD27181CC71BC400A21A2F /* UIView+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Util.h"; sourceTree = "<group>"; };
+		9ACD27191CC71BC400A21A2F /* UIView+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Util.m"; sourceTree = "<group>"; };
+		9ACD271B1CC71E7E00A21A2F /* UIBarButtonItem+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Badge.h"; sourceTree = "<group>"; };
+		9ACD271C1CC71E7E00A21A2F /* UIBarButtonItem+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Badge.m"; sourceTree = "<group>"; };
+		9ACD271D1CC71E7E00A21A2F /* UIButton+Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Badge.h"; sourceTree = "<group>"; };
+		9ACD271E1CC71E7E00A21A2F /* UIButton+Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Badge.m"; sourceTree = "<group>"; };
+		9ACD27231CC725BC00A21A2F /* YUUserLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YUUserLogin.h; sourceTree = "<group>"; };
+		9ACD27241CC725BC00A21A2F /* YUUserLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YUUserLogin.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +125,10 @@
 		9A7E0F761CC5C72D001A22D6 /* UIDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9ACD27261CC725CA00A21A2F /* Model */,
+				9ACD27211CC724DF00A21A2F /* login */,
+				9A7E10101CC637DC001A22D6 /* Categary */,
+				9A7E10071CC6304E001A22D6 /* Encryption */,
 				9A7E0F7A1CC5C72D001A22D6 /* AppDelegate.h */,
 				9A7E0F7B1CC5C72D001A22D6 /* AppDelegate.m */,
 				9A7E0F7D1CC5C72D001A22D6 /* ViewController.h */,
@@ -110,6 +138,9 @@
 				9A7E0F851CC5C72D001A22D6 /* LaunchScreen.storyboard */,
 				9A7E0F881CC5C72D001A22D6 /* Info.plist */,
 				9A7E0F771CC5C72D001A22D6 /* Supporting Files */,
+				9A7E0FAA1CC5C777001A22D6 /* ZSHYWalletViewController.h */,
+				9A7E0FAB1CC5C777001A22D6 /* ZSHYWalletViewController.m */,
+				9A7E0FAC1CC5C777001A22D6 /* ZSHYWalletViewController.xib */,
 			);
 			path = UIDemo;
 			sourceTree = "<group>";
@@ -138,6 +169,55 @@
 				9A7E0F9E1CC5C72D001A22D6 /* Info.plist */,
 			);
 			path = UIDemoUITests;
+			sourceTree = "<group>";
+		};
+		9A7E10071CC6304E001A22D6 /* Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				9A7E100C1CC63303001A22D6 /* EncryptionKeys.h */,
+				9A7E10081CC6305A001A22D6 /* RSA */,
+			);
+			name = Encryption;
+			sourceTree = "<group>";
+		};
+		9A7E10081CC6305A001A22D6 /* RSA */ = {
+			isa = PBXGroup;
+			children = (
+				9A7E10091CC6306C001A22D6 /* RSAUtil.h */,
+				9A7E100A1CC6306C001A22D6 /* RSAUtil.m */,
+			);
+			name = RSA;
+			sourceTree = "<group>";
+		};
+		9A7E10101CC637DC001A22D6 /* Categary */ = {
+			isa = PBXGroup;
+			children = (
+				9A7E10111CC639C0001A22D6 /* NSString+Util.h */,
+				9A7E10121CC639C0001A22D6 /* NSString+Util.m */,
+				9ACD27181CC71BC400A21A2F /* UIView+Util.h */,
+				9ACD27191CC71BC400A21A2F /* UIView+Util.m */,
+				9ACD271B1CC71E7E00A21A2F /* UIBarButtonItem+Badge.h */,
+				9ACD271C1CC71E7E00A21A2F /* UIBarButtonItem+Badge.m */,
+				9ACD271D1CC71E7E00A21A2F /* UIButton+Badge.h */,
+				9ACD271E1CC71E7E00A21A2F /* UIButton+Badge.m */,
+			);
+			name = Categary;
+			sourceTree = "<group>";
+		};
+		9ACD27211CC724DF00A21A2F /* login */ = {
+			isa = PBXGroup;
+			children = (
+				9ACD27231CC725BC00A21A2F /* YUUserLogin.h */,
+				9ACD27241CC725BC00A21A2F /* YUUserLogin.m */,
+			);
+			name = login;
+			sourceTree = "<group>";
+		};
+		9ACD27261CC725CA00A21A2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +287,7 @@
 				TargetAttributes = {
 					9A7E0F731CC5C72D001A22D6 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = T5VM8ZX6BF;
 					};
 					9A7E0F8C1CC5C72D001A22D6 = {
 						CreatedOnToolsVersion = 7.3;
@@ -246,6 +327,7 @@
 				9A7E0F871CC5C72D001A22D6 /* LaunchScreen.storyboard in Resources */,
 				9A7E0F841CC5C72D001A22D6 /* Assets.xcassets in Resources */,
 				9A7E0F821CC5C72D001A22D6 /* Main.storyboard in Resources */,
+				9A7E0FAE1CC5C777001A22D6 /* ZSHYWalletViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +352,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A7E100B1CC6306C001A22D6 /* RSAUtil.m in Sources */,
+				9ACD271A1CC71BC400A21A2F /* UIView+Util.m in Sources */,
 				9A7E0F7F1CC5C72D001A22D6 /* ViewController.m in Sources */,
+				9A7E10131CC639C0001A22D6 /* NSString+Util.m in Sources */,
 				9A7E0F7C1CC5C72D001A22D6 /* AppDelegate.m in Sources */,
 				9A7E0F791CC5C72D001A22D6 /* main.m in Sources */,
+				9ACD27251CC725BC00A21A2F /* YUUserLogin.m in Sources */,
+				9ACD271F1CC71E7E00A21A2F /* UIBarButtonItem+Badge.m in Sources */,
+				9ACD27201CC71E7E00A21A2F /* UIButton+Badge.m in Sources */,
+				9A7E0FAD1CC5C777001A22D6 /* ZSHYWalletViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,10 +502,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = UIDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YU.UIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -424,10 +517,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = UIDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = YU.UIDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -496,6 +593,7 @@
 				9A7E0FA31CC5C72D001A22D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A7E0FA41CC5C72D001A22D6 /* Build configuration list for PBXNativeTarget "UIDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +602,7 @@
 				9A7E0FA61CC5C72D001A22D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A7E0FA71CC5C72D001A22D6 /* Build configuration list for PBXNativeTarget "UIDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +611,7 @@
 				9A7E0FA91CC5C72D001A22D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

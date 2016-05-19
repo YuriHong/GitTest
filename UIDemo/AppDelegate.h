@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+typedef NS_ENUM(NSInteger, CommonViewBGColor) {
+    
+    CommonViewBGColorwhiteColor = 0,
+    CommonViewBGColorBlackColor = 1
+};
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
