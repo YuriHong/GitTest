@@ -25,13 +25,13 @@
 }
 
 - (IBAction)encrytionButton:(UIButton *)sender {
-//    if (_MtextField.text.length <= 0) {
-//        return;
-//    }
+    if (_MtextField.text.length <= 0) {
+        return;
+    }
     
-//    NSDictionary *dic = @{@"user":@"yu",
-//                          @"age":@25
-//                          };
+    NSDictionary *dic = @{@"user":@"yu",
+                          @"age":@25
+                          };
     
     NSString *e_str = [RSAUtil encryptString:_MtextField.text publicKey:RSA_Public_key];
     if (e_str) {
